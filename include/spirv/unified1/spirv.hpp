@@ -720,6 +720,7 @@ enum LoopControlShift {
     LoopControlMaxInterleavingINTELShift = 21,
     LoopControlSpeculatedIterationsINTELShift = 22,
     LoopControlNoFusionINTELShift = 23,
+    LoopControlMaxReinvocationDelayINTELShift = 25,
     LoopControlMax = 0x7fffffff,
 };
 
@@ -742,6 +743,7 @@ enum LoopControlMask {
     LoopControlMaxInterleavingINTELMask = 0x00200000,
     LoopControlSpeculatedIterationsINTELMask = 0x00400000,
     LoopControlNoFusionINTELMask = 0x00800000,
+    LoopControlMaxReinvocationDelayINTELMask = 0x02000000,
 };
 
 enum FunctionControlShift {

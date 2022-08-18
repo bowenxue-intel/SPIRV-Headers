@@ -748,7 +748,8 @@
                     "LoopCoalesceINTEL": 20,
                     "MaxInterleavingINTEL": 21,
                     "SpeculatedIterationsINTEL": 22,
-                    "NoFusionINTEL": 23
+                    "NoFusionINTEL": 23,
+                    "MaxReinvocationDelayINTEL": 25
                 }
             },
             {

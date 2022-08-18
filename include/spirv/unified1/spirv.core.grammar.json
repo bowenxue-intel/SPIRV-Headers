@@ -9068,6 +9068,16 @@
           "capabilities" : [ "FPGALoopControlsINTEL" ],
           "extensions" : [ "SPV_INTEL_fpga_loop_controls" ],
           "version" : "None"
+        },
+        {
+          "enumerant" : "MaxReinvocationDelayINTEL",
+          "value" : "0x2000000",
+          "parameters" : [
+            { "kind" : "LiteralInteger" }
+          ],
+          "capabilities" : [ "FPGALoopControlsINTEL" ],
+          "extensions" : [ "SPV_INTEL_fpga_loop_controls" ],
+          "version" : "None"
         }
       ]
     },
